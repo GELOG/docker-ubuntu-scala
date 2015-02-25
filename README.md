@@ -1,3 +1,6 @@
+# Supported tags and respective `Dockerfile` links
+- [`2.10.4`/Dockerfile](https://github.com/GELOG/docker-ubuntu-scala/tree/2.10.4/Dockerfile)
+
 # docker-ubuntu-scala
 Dockerfile for running Scala on Ubuntu
 
