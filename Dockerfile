@@ -2,7 +2,7 @@
 
 
 # For building this image, See https://github.com/GELOG/docker-ubuntu-java
-FROM java:oraclejdk7
+FROM gelog/java:oraclejdk7
 
 
 # Environment variables
