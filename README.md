@@ -28,6 +28,5 @@ Docker images are the basis of containers. Images are read-only, while container
 * [gelog/java:oraclejdk7](https://registry.hub.docker.com/u/gelog/java/)
 
 # How to use this image?
-```
-docker run --rm -ti gelog/scala:2.10.4
-```
+
+    docker run --rm -ti gelog/scala:2.10.4
