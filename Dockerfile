@@ -8,7 +8,7 @@ FROM gelog/java:oraclejdk7
 # Environment variables
 ENV SBT_VERSION		0.13.6
 ENV SBT_HOME		/usr/local/sbt
-ENV SCALA_VERSION	2.11.1
+ENV SCALA_VERSION	2.11.2
 ENV SCALA_HOME		/usr/local/scala
 ENV PATH		$SCALA_HOME/bin:$SBT_HOME/bin:$PATH
 
