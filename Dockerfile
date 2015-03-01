@@ -2,13 +2,13 @@
 
 
 # For building this image, See https://github.com/GELOG/docker-ubuntu-java
-FROM gelog/java:oraclejdk7
+FROM gelog/java:openjdk7
 
 
 # Environment variables
 ENV SBT_VERSION		0.13.6
 ENV SBT_HOME		/usr/local/sbt
-ENV SCALA_VERSION	2.11.5
+ENV SCALA_VERSION	2.10.4
 ENV SCALA_HOME		/usr/local/scala
 ENV PATH		$SCALA_HOME/bin:$SBT_HOME/bin:$PATH
 
